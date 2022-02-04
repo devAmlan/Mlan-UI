@@ -1,0 +1,97 @@
+.btn{
+    padding:0.5rem 2.1rem;
+    border-radius:7px;
+    cursor: pointer;
+    font-size:1.7rem;
+    margin:1rem;
+  }
+  .btn_primary{
+      background-color:var(--primary-color);
+      color:var(--light);
+      border:1.3px solid var(--primary-color);
+  }
+  .btn_secondary{
+      background-color:var(--secondary-color);
+      color:var(--light);
+      border:1.3px solid var(--secondary-color);
+  }
+  .btn_success{
+      background-color:var(--success-color);
+      color:var(--light);
+      border:1.3px solid var(--success-color);
+  }
+  .btn_danger{
+      background-color:var(--danger-color);
+      color:var(--light);
+      border:1.3px solid var(--danger-color);
+  }
+  .btn_warning{
+      background-color:var(--warning-color);
+      color:var(--light);
+      border:1.3px solid var(--warning-color);
+  }
+  .link_btn{
+      cursor: pointer;
+  }
+  .link_btn:hover{
+      text-decoration:none;
+  }
+  .link_primary{
+    color:var(--primary-color);
+  }
+  .outlinebtn_primary{
+    border:1.3px solid var(--primary-color);
+    background-color:transparent;
+    color:var(--primary-color);
+  }
+  .outlinebtn_secondary{
+      border:1.3px solid var(--secondary-color);
+      background-color:transparent;
+      color:var(--secondary-color);
+  }
+  .outlinebtn_success{
+      border:1.3px solid var(--success-color);
+      background-color:transparent;
+      color:var(--success-color);
+    }
+    .outlinebtn_danger{
+      border:1.3px solid var(--danger-color);
+      background-color:transparent;
+      color:var(--danger-color);
+    }
+    .outlinebtn_warning{
+      border:1.3px solid var(--warning-color);
+      background-color:transparent;
+      color:var(--warning-color);
+    }
+    .float_btn{
+      width:4.5rem;
+      height:4.5rem;
+      border:none;
+      border-radius:50%;
+      font-size:1.7rem;
+      text-align:center; 
+      cursor: pointer; 
+      position: fixed;
+      bottom:1rem;
+      right:1rem;
+    }
+    .primary_floatbtn{
+       background-color:var(--primary-bgcolor);   
+       color:var(--dark)
+    }
+   .icon_btn{
+      padding:0.5rem 2.1rem;
+      border-radius:7px;
+      font-size:1.6rem;
+      cursor: pointer;
+      font-weight:600;
+   }
+   .icon_btn i{
+      margin-right:0.5rem;
+   }
+    .primary_iconbtn{
+      border:1px solid var(--primary-color);
+      background-color:var(--primary-bgcolor);
+      color:var(--primary-color);
+   }

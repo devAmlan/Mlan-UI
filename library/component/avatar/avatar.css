@@ -1,0 +1,18 @@
+.avatar_s{
+    width:6rem;
+    height:6rem;
+    border:none;
+    border-radius:50%;
+ }
+ .avatar_m{
+     width:7rem;
+     height:7rem;
+     border:none;
+     border-radius:50%;
+ }
+ .avatar_l{
+     width:9rem;
+     height:9rem;
+     border:none;
+     border-radius:50%;
+}

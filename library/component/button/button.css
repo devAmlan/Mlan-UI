@@ -1,5 +1,5 @@
 .btn{
-    padding:0.5rem 2.1rem;
+    padding:5px  21px;
     border-radius:7px;
     cursor: pointer;
     font-size:1.7rem;
@@ -81,7 +81,7 @@
        color:var(--dark)
     }
    .icon_btn{
-      padding:0.5rem 2.1rem;
+      padding:5px  21px;
       border-radius:7px;
       font-size:1.6rem;
       cursor: pointer;

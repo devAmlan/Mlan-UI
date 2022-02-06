@@ -20,6 +20,9 @@
     --danger-bgcolor:#fa6a676e; 
     --warning-color:#FFAB4C;
     --warning-bgcolor:#ffe2795b; 
+    --shadow-color1:rgba(0, 0, 0, 0.2);
+    --shadow-color2:rgba(0, 0, 0, 0.19);
+    --overlay-bgcolor:rgba(0, 0, 0, 0.404);
 }
 body{
     font-family: 'Roboto', sans-serif;  

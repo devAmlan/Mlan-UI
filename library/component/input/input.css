@@ -9,14 +9,14 @@
     background-color:var(--light);
   }
   .input_section{
-      display:flex;
-      flex-direction:column;
+    display:flex;
+    flex-direction:column;
   }
   .input_section label{
-      text-align:left;
-      margin:5px;
-      font-size:1.8rem;
-      color:var(--primary-color);
+    text-align:left;
+    margin:5px;
+    font-size:1.8rem;
+    color:var(--primary-color);
   }
  .input_field{
     width:32rem;
@@ -42,14 +42,14 @@
     margin:5px;
     font-size:1.4rem;
   }
-  .err_input_field{
-      width:32rem;
-      height:3.5rem;
-      outline:none;
-      border:2px solid var(--danger-color);
-      padding-left:1rem;
-      font-size:1.5rem;
-      border-radius:5px;
+  .err_input_field{  
+    width:32rem;
+    height:3.5rem;
+    outline:none;
+    border:2px solid var(--danger-color);
+    padding-left:1rem;
+    font-size:1.5rem;
+    border-radius:5px;
   }
   .input_form{
     display:flex;

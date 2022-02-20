@@ -10,6 +10,7 @@
    flex-basis:20rem;
    background-color:var(--Turquoisecolor);
    height:50rem;
+   padding:1rem;
  }
  .docs_area {
    flex-grow: 1;

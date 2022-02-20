@@ -46,7 +46,7 @@
 ### There are 4 types of List (general unordered list, circle list and no stye list) also a Stacked list (can be used to show notification on your project)
 
 ## Rating
-## We have 2 kinds of ratings. One is with stars icons and another is with text.
+### We have 2 kinds of ratings. One is with stars icons and another is with text.
 
 ## Toast
-## Toast can be used to show any notification on your projects.
+### Toast can be used to show any notification on your projects.

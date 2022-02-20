@@ -1,25 +1,25 @@
-.ratings{
-    display:flex;
+.ratings {
+  display: flex;
 }
-.star{
-    font-size:1.8rem;
-    color:var(--grey);
-    cursor: pointer;
-    margin:3px;
+.star {
+  font-size: 1.8rem;
+  color: var(--grey);
+  cursor: pointer;
+  margin: 3px;
 }
-.star_fill{
-    color:var(--warning-color);
+.star_fill {
+  color: var(--warning-color);
 }
-.ratings_box{
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    width:7rem;
-    background-color:var(--warning-bgcolor);
-    margin:1rem;
-    border:none;
-    border-radius:8px;
+.ratings_box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 7rem;
+  background-color: var(--warning-bgcolor);
+  margin: 1rem;
+  border: none;
+  border-radius: 8px;
 }
-.ratings_box .rating_text{
-    font-size:1.5rem; 
+.ratings_box .rating_text {
+  font-size: 1.5rem;
 }

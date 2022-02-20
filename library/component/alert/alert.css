@@ -1,50 +1,50 @@
-.alert{
-    font-size:1.7rem;
-    width:40rem;
-    height:5rem;
-    text-align:center;
-    display:flex;
-    justify-content:space-around;
-    align-items:center;
-    border-radius:8px;
-    margin:1rem;
+.alert {
+  font-size: 1.7rem;
+  width: 40rem;
+  height: 5rem;
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 8px;
+  margin: 1rem;
 }
 /* primary alert */
-.alert_primary{
-    background-color:var(--primary-bgcolor);
-    color:var(--primary-color);
-    border:1px solid var(--primary-color)
+.alert_primary {
+  background-color: var(--primary-bgcolor);
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
 }
 /* secondary alert */
-  .alert_secondary{
-    background-color:var(--secondary-bgcolor);
-    color:var(--secondary-color);
-    border:1px solid var(--secondary-color)
+.alert_secondary {
+  background-color: var(--secondary-bgcolor);
+  color: var(--secondary-color);
+  border: 1px solid var(--secondary-color);
 }
-  /* success alert */
-  .alert_success{
-    background-color:var(--success-bgcolor);
-    color:var(--success-color);
-    border:1px solid var(--success-color);
+/* success alert */
+.alert_success {
+  background-color: var(--success-bgcolor);
+  color: var(--success-color);
+  border: 1px solid var(--success-color);
 }
-  
+
 /* danger alert */
-  .alert_danger{
-    background-color:var(--danger-bgcolor);
-    color:var(--danger-color);
-    border:1px solid var(--danger-color);
+.alert_danger {
+  background-color: var(--danger-bgcolor);
+  color: var(--danger-color);
+  border: 1px solid var(--danger-color);
+}
+
+/* warning alert */
+.alert_warning {
+  background-color: var(--warning-bgcolor);
+  color: var(--warning-color);
+  border: 1px solid var(--warning-color);
+}
+
+@media only screen and (max-width: 600px) {
+  .alert {
+    width: 25rem;
+    height: 4rem;
   }
-  
-  /* warning alert */
-  .alert_warning{
-    background-color:var(--warning-bgcolor);
-    color:var(--warning-color);
-    border:1px solid var(--warning-color);
-  }
-  
-  @media only screen and (max-width: 600px) {
-    .alert{
-      width:25rem;
-      height:4rem;
-    }
-  }
+}

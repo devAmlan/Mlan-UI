@@ -1,116 +1,116 @@
-.card{
-    width:23rem;
-    min-height:30rem;
-    text-align:left;
-    border:2px solid var(--primary-color);
-    border-radius:8px;
-    font-size:1.6rem;
-    color:var(--dark);
-    padding:1rem;
-    margin:1rem;
+.card {
+  width: 23rem;
+  min-height: 30rem;
+  text-align: left;
+  border: 2px solid var(--primary-color);
+  border-radius: 8px;
+  font-size: 1.6rem;
+  color: var(--dark);
+  padding: 1rem;
+  margin: 1rem;
+}
+.card_heading {
+  font-size: 2.3rem;
+}
+.card_image {
+  max-inline-size: 100%;
+  block-size: auto;
+}
+.card_text {
+  color: var(--dark);
+  font-size: 1.7rem;
+}
+
+.horizontal_card {
+  width: 50rem;
+  height: 25rem;
+  border: 2px solid var(--primary-color);
+  border-radius: 8px;
+  display: flex;
+  margin: 1rem;
+}
+.horizontal_card_image {
+  max-inline-size: 100%;
+  block-size: auto;
+  width: 50%;
+  height: 95%;
+  margin: 5px;
+}
+.horizontal_card_text {
+  flex-grow: 1;
+  margin: 5px;
+  font-size: 1.7rem;
+}
+.shadow_card {
+  border: none;
+  box-shadow: 0 4px 8px 0 var(--shadow-color1),
+    0 6px 20px 0 var(--shadow-color2);
+}
+.dismiss_card {
+  position: relative;
+}
+.dismiss_icon {
+  font-size: 25px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 10px;
+  z-index: 5;
+  cursor: pointer;
+}
+.badge_card {
+  position: relative;
+}
+.card_badge_label_primary {
+  width: 10rem;
+  background-color: var(--primary-color);
+  color: var(--light);
+  font-size: 1.6rem;
+  text-align: center;
+  padding: 0.7rem;
+  font-weight: 900;
+  position: absolute;
+  z-index: 5;
+  top: 0;
+  right: 0;
+  border: none;
+  border-radius: 5px;
+}
+.overlay_card {
+  position: relative;
+}
+.overlay {
+  width: 100;
+  height: 100%;
+  position: absolute;
+  text-align: center;
+  background-color: var(--overlay-bgcolor);
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.overlay_text {
+  padding: 1rem;
+  background-color: var(--danger-bgcolor);
+  color: var(--dark);
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+@media only screen and (max-width: 600px) {
+  .horizontal_card {
+    width: 25rem;
+    height: 18rem;
+    border: 2px solid var(--primary-color);
+    border-radius: 8px;
+    display: flex;
   }
-  .card_heading{
-    font-size:2.3rem;
+  .horizontal_card_text {
+    font-size: 14px;
   }
-  .card_image{
-    max-inline-size:100%;
-    block-size:auto;
-  }
-  .card_text{
-    color:var(--dark);
-    font-size:1.7rem;
-  }
-  
-  .horizontal_card{
-    width:50rem;
-    height:25rem;
-    border:2px solid var(--primary-color);
-    border-radius:8px;
-    display:flex;
-    margin:1rem;
-  }
-  .horizontal_card_image{
-    max-inline-size:100%;
-    block-size:auto;
-    width:50%;
-    height:95%;
-    margin:5px;
-  }
-  .horizontal_card_text{
-    flex-grow:1;
-    margin:5px;
-    font-size:1.7rem;
-  }
-  .shadow_card{
-    border:none;
-    box-shadow:0 4px 8px 0 var(--shadow-color1), 0 6px 20px 0 var(--shadow-color2);
-  }
-  .dismiss_card{
-    position:relative;
-  }
-  .dismiss_icon{
-    font-size:25px;
-    position:absolute;
-    top:0;
-    right:0;
-    margin:10px;
-    z-index:5;
-    cursor: pointer;
-  }
-  .badge_card{
-    position: relative;
-  }
-  .card_badge_label_primary{
-    width:10rem;
-    background-color:var(--primary-color);
-    color:var(--light);
-    font-size:1.6rem;
-    text-align:center;
-    padding:0.7rem;
-    font-weight:900;
-    position:absolute;
-    z-index:5;
-    top:0;
-    right:0;
-    border:none;
-    border-radius:5px;
-  }
-  .overlay_card{
-    position:relative;
-  }
-  .overlay{
-    width:100;
-    height:100%;
-    position:absolute;
-    text-align:center;
-    background-color:var(--overlay-bgcolor);
-    top:0;
-    bottom:0;
-    left:0;
-    right:0;
-    z-index:3;
-    display:flex;
-    justify-content:center;
-    align-items:center;
-  }
-  .overlay_text{
-    padding:1rem;
-    background-color:var(--danger-bgcolor);
-    color:var(--dark);
-    font-size:1.8rem;
-    font-weight:600;
-  }
-  
-  
-  @media only screen and (max-width: 600px) {
-    .horizontal_card{
-      width:25rem;
-      height:18rem;
-      border:2px solid var(--primary-color);
-      border-radius:8px;
-      display:flex;
-    }
-    .horizontal_card_text{
-      font-size:14px;
-    }
-  }
+}

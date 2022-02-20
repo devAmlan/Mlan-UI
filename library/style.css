@@ -8,3 +8,5 @@
 @import './component/image/image.css';
 @import './component/list/list.css';
 @import './component/rating/rating.css';
+@import './docs/docs.css';
+@import '../style.css';

@@ -1,0 +1,95 @@
+.docs{
+   display: flex;
+   flex-wrap: wrap;
+   padding-left: 1rem;
+   padding-right: 1rem;
+   margin: 1rem auto;
+}
+
+.sidebar_area {
+   flex-basis:20rem;
+   background-color:var(--Turquoisecolor);
+   height:50rem;
+   padding:1rem;
+ }
+ .docs_area {
+   flex-grow: 1;
+ }
+ 
+.heading{
+    text-align:center;
+    font-family: 'Rubik', sans-serif;
+    font-size:2rem;
+}
+ .sidebar-nav{
+    padding:0;
+    margin:0;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    list-style:none;
+ }
+ .sidebar-nav h3{
+    font-weight:800;
+    font-size:2rem;
+ }
+ .sidebar-nav a{
+    text-decoration:none;
+ }
+ .sidebar-nav .link-text{
+    font-size:1.8rem;
+    margin-top:1.5rem;
+    cursor: pointer;
+    text-decoration:none;
+    color:var(--light);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-weight:800;
+  }
+
+.component-area{
+   margin:2rem;
+   border-radius:7px;
+   box-shadow:0 4px 8px 0 var(--shadow-color1), 0 6px 2rem 0 var(--shadow-color2);
+   padding:1rem;
+}
+.component-area .heading{
+   font-size:2.5rem;
+   text-align:left;
+}
+.component-description{
+  font-size:1.8rem;
+  margin:1rem 0;
+  text-align:left;
+}
+.component{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  flex-wrap:wrap;
+}
+.component-code{
+   display:flex;
+   justify-content:center;
+   align-items:center;
+}
+@media only screen and (max-width: 600px) {
+   aside {
+    display:none;
+    }
+    .docs_area{
+      width:25rem;
+    }
+    .component-area{
+      margin:5px;
+      width:25rem;
+      padding:1rem;
+   }
+   .docs{
+      display: flex;
+      flex-wrap: wrap;
+      padding:0;
+      margin:5px;
+   }
+ }

@@ -1,4 +1,4 @@
-#toast{
+.toast{
     min-width:25rem;
     height:5rem;
     display:none;
@@ -16,7 +16,7 @@
     z-index:2;
     cursor: pointer;
   }
-  #show_toast{
+  .show_toast{
     padding:6px 1.5rem;
     margin:1rem;
     font-size:1.6rem;

@@ -41,10 +41,15 @@
                 <a href="#rating-component">
                     <li class="link-text">Ratings</li>
                 </a>
+                <a href="#toast-component">
+                    <li class="link-text">Toast</li>
+                </a>
             </ul>
         </aside>
         <main class="docs_area">
-            <!-- <div class="heading"><h2>Welcome to documentation of Mlan ui</h2></div> -->
+            <div class="heading">
+                <h2>Welcome to documentation of Mlan ui</h2>
+            </div>
 
             <div class="component-area">
                 <div class="heading" id="avatar-component">
@@ -501,8 +506,33 @@
                 </div>
 
             </div>
+
+            <div class="component-area">
+                <div class="heading" id="toast-component">
+                    <h3>Toast</h3>
+                </div>
+                <p class="component-description"></p>
+                <div class="component">
+                    <div>
+                        <div id="toast" class="toast"><i class="fa-solid fa-circle-info"></i>
+                            <p class="toast_msg">This is a Toast message</p>
+                        </div>
+                        <button id="show_toast" class="show_toast">Show toast</button>
+                    </div>
+                </div>
+                <div class="component-code">
+                    <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%28248%2C231%2C28%2C1%29&t=blackboard&wt=none&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%253Cdiv%2520id%253D%2522toast%2522%2520class%253D%2522toast%2522%253E%253Ci%2520class%253D%2522fa-solid%2520fa-circle-info%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%253Cp%2520class%253D%2522toast_msg%2522%253EThis%2520is%2520a%2520Toast%2520message%253C%252Fp%253E%250A%253C%252Fdiv%253E%250A%253Cbutton%2520id%253D%2522show_toast%2522%2520class%253D%2522show_toast%2522%253EShow%2520toast%253C%252Fbutton%253E"
+                        style="width: 727px; height: 254px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+            </div>
+
         </main>
     </div>
+
+    <script src="../component/js/index.js""></script>
 </body>
 
 </html>

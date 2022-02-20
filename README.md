@@ -50,3 +50,6 @@
 
 ## Toast
 **Toast can be used to show any notification on your projects.**
+
+---
+### To know more check the [documentation](https://mlanui.netlify.app/library/docs/docs.html)

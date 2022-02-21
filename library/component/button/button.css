@@ -95,3 +95,7 @@
   background-color: var(--primary-bgcolor);
   color: var(--primary-color);
 }
+.demo_btn{
+  position:static;
+  margin:1rem;
+}

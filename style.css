@@ -57,3 +57,18 @@
   cursor: pointer;
   color: var(--light);
 }
+.installation{
+  text-align:center;
+  margin-top:20rem;
+}
+.installation h2{
+  font-size:3rem;
+}
+.installation p{
+  font-size:2rem;
+  margin:1rem;
+}
+.installation iframe{
+  max-inline-size:100%;
+  block-size:auto;
+}

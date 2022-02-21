@@ -10,41 +10,124 @@
 </head>
 
 <body>
+    <div class="nav_bar">
+        <a href="../../../index.html">
+            <div class="logo">Mlan UI</div>
+        </a>
+        <ul class="nav_link">
+            <a href="">
+                <li><i class="fa-brands fa-github"></i></li>
+            </a>
+            <a href="../avatar/avatar.html">
+                <li>Docs</li>
+            </a>
+        </ul>
+    </div>
+    <div class="docs_bottom_bar">
+        <a href="../input/input.html"><button class="comp_link_btn"><i class="fa-solid fa-circle-chevron-left"></i>
+                Input </button></a>
+        <a href="../rating/rating.html"><button class="comp_link_btn">Rating <i
+                    class="fa-solid fa-circle-chevron-right"></i></button></a>
+    </div>
+    <aside class="docs_sidenav">
+        <h2>Components</h2>
+        <a href="../avatar/avatar.html">
+            <h3>Avatar</h3>
+        </a>
+        <a href="../alert/alert.html">
+            <h3>Alert</h3>
+        </a>
+        <a href="../badge/badge.html">
+            <h3>Badge</h3>
+        </a>
+        <a href="../button/button.html">
+            <h3>Button</h3>
+        </a>
+        <a href="../card/card.html">
+            <h3>Card</h3>
+        </a>
+        <a href="../image/image.html">
+            <h3>Image</h3>
+        </a>
+        <a href="../input/input.html">
+            <h3>Input</h3>
+        </a>
+        <a href="../list/list.html">
+            <h3>List</h3>
+        </a>
+        <a href="../rating/rating.html">
+            <h3>Ratings</h3>
+        </a>
+        <a href="../toast/toast.html">
+            <h3>Toast</h3>
+        </a>
+    </aside>
+    <div class="component_description">
+        <h2>List</h2>
+        <p>This is List component.We have 3 kinds of lists.</p>
+    </div>
+    <div class="mlanui_component">
+        <div>
+            <ul class="normal_unordered_list">
+                <li>Lorem ipsum dolor sit.</li>
+                <li>Lorem ipsum dolor sit.</li>
+                <li>Lorem ipsum dolor sit.</li>
+                <li>Lorem ipsum dolor sit.</li>
+            </ul>
+            <ul class="normal_unordered_list circle_style">
+                <li>Lorem ipsum dolor sit.</li>
+                <li>Lorem ipsum dolor sit.</li>
+                <li>Lorem ipsum dolor sit.</li>
+                <li>Lorem ipsum dolor sit.</li>
+            </ul>
+            <ul class="normal_unordered_list no_liststyle">
+                <li>Lorem ipsum dolor sit.</li>
+                <li>Lorem ipsum dolor sit.</li>
+                <li>Lorem ipsum dolor sit.</li>
+                <li>Lorem ipsum dolor sit.</li>
+            </ul>
+        </div>
+        <div class="component_code">
+            <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28144%2C19%2C254%2C1%29&t=cobalt&wt=none&l=auto&width=432.5&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%250A%253Cul%2520class%253D%2522normal_unordered_list%2522%253E%250A%2520%2520%2520%253Cli%253ELorem%2520ipsum%2520dolor%2520sit.%253C%252Fli%253E%250A%2520%2520%2520%253Cli%253ELorem%2520ipsum%2520dolor%2520sit.%253C%252Fli%253E%250A%253C%252Ful%253E%250A%253Cul%2520class%253D%2522normal_unordered_list%2520circle_style%2522%253E%250A%2520%2520%2520%253Cli%253ELorem%2520ipsum%2520dolor%2520sit.%253C%252Fli%253E%250A%2520%2520%2520%253Cli%253ELorem%2520ipsum%2520dolor%2520sit.%253C%252Fli%253E%250A%253C%252Ful%253E%250A%253Cul%2520class%253D%2522normal_unordered_list%2520no_liststyle%2522%253E%250A%2520%2520%2520%253Cli%253ELorem%2520ipsum%2520dolor%2520sit.%253C%252Fli%253E%250A%2520%2520%2520%253Cli%253ELorem%2520ipsum%2520dolor%2520sit.%253C%252Fli%253E%250A%253C%252Ful%253E%250A"
+                style="width: 400px; height: 509px; border:0; transform: scale(1); overflow:hidden;"
+                sandbox="allow-scripts allow-same-origin">
+            </iframe>
+        </div>
+    </div>
 
-    <ul class="normal_unordered_list">
-        <li>Lorem ipsum dolor sit.</li>
-        <li>Lorem ipsum dolor sit.</li>
-        <li>Lorem ipsum dolor sit.</li>
-        <li>Lorem ipsum dolor sit.</li>
-    </ul>
-    <ul class="normal_unordered_list circle_style">
-        <li>Lorem ipsum dolor sit.</li>
-        <li>Lorem ipsum dolor sit.</li>
-        <li>Lorem ipsum dolor sit.</li>
-        <li>Lorem ipsum dolor sit.</li>
-    </ul>
-    <ul class="normal_unordered_list no_liststyle">
-        <li>Lorem ipsum dolor sit.</li>
-        <li>Lorem ipsum dolor sit.</li>
-        <li>Lorem ipsum dolor sit.</li>
-        <li>Lorem ipsum dolor sit.</li>
-    </ul>
 
     <!-- Stacked List -->
-    <ul class="stacked_list">
-        <li>
-            <img src="../../assets/avatar.png" alt="" class="avatar_s">
-            <p class="list_text">Lorem ipsum dolor sit.</p>
-        </li>
-        <li>
-            <img src="../../assets/avatar.png" alt="" class="avatar_s">
-            <p class="list_text">Lorem ipsum dolor sit.</p>
-        </li>
-        <li>
-            <img src="../../assets/avatar.png" alt="" class="avatar_s">
-            <p class="list_text">Lorem ipsum dolor sit.</p>
-        </li>
-    </ul>
+    <div class="component_description">
+
+        <p>This is a stacked List.</p>
+    </div>
+    <div class="mlanui_component">
+        <div>
+            <ul class="stacked_list">
+                <li>
+                    <img src="../../assets/avatar.png" alt="" class="avatar_s">
+                    <p class="list_text">Lorem ipsum dolor sit.</p>
+                </li>
+                <li>
+                    <img src="../../assets/avatar.png" alt="" class="avatar_s">
+                    <p class="list_text">Lorem ipsum dolor sit.</p>
+                </li>
+                <li>
+                    <img src="../../assets/avatar.png" alt="" class="avatar_s">
+                    <p class="list_text">Lorem ipsum dolor sit.</p>
+                </li>
+            </ul>
+        </div>
+        <div class="component_code">
+            <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28144%2C19%2C254%2C1%29&t=cobalt&wt=none&l=auto&width=432.5&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%253Cul%2520class%253D%2522stacked_list%2522%253E%250A%2520%2520%253Cli%253E%250A%2520%2520%2520%253Cimg%2520src%253D%2522..%252Fassets%252Favatar.png%2522%2520alt%253D%2522%2522%2520class%253D%2522avatar_s%2522%253E%250A%2520%2520%2520%253Cp%2520class%253D%2522list_text%2522%253ELorem%2520ipsum%2520dolor%2520sit.%253C%252Fp%253E%250A%2520%2520%2520%253C%252Fli%253E%250A%2520%2520%2520%253Cli%253E%250A%2520%2520%2520%253Cimg%2520src%253D%2522..%252Fassets%252Favatar.png%2522%2520alt%253D%2522%2522%2520class%253D%2522avatar_s%2522%253E%250A%2520%2520%2520%253Cp%2520class%253D%2522list_text%2522%253ELorem%2520ipsum%2520dolor%2520sit.%253C%252Fp%253E%250A%2520%2520%2520%253C%252Fli%253E%250A%2520%2520%2520%253Cli%253E%250A%2520%2520%2520%253Cimg%2520src%253D%2522..%252Fassets%252Favatar.png%2522%2520alt%253D%2522%2522%2520class%253D%2522avatar_s%2522%253E%250A%2520%2520%2520%253Cp%2520class%253D%2522list_text%2522%253ELorem%2520ipsum%2520dolor%2520sit.%253C%252Fp%253E%250A%2520%2520%253C%252Fli%253E%250A%253C%252Ful%253E%250A"
+                style="width: 400px; height: 616px; border:0; transform: scale(1); overflow:hidden;"
+                sandbox="allow-scripts allow-same-origin">
+            </iframe>
+        </div>
+    </div>
+
 </body>
 
 </html>

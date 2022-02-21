@@ -6,6 +6,9 @@
   height: 5rem;
   background-color: var(--Turquoisecolor);
 }
+.nav_bar a{
+  text-decoration:none;
+}
 .nav_link {
   margin-left: auto;
   display: flex;

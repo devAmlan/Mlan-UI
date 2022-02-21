@@ -10,10 +10,78 @@
 </head>
 
 <body>
+    <div class="nav_bar">
+        <a href="../../../index.html">
+            <div class="logo">Mlan UI</div>
+        </a>
+        <ul class="nav_link">
+            <a href="">
+                <li><i class="fa-brands fa-github"></i></li>
+            </a>
+            <a href="../avatar/avatar.html">
+                <li>Docs</li>
+            </a>
+        </ul>
+    </div>
+    <div class="docs_bottom_bar">
+        <a href="../rating/rating.html"><button class="comp_link_btn"><i class="fa-solid fa-circle-chevron-left"></i>
+                Rating </button></a>
+        <a href="../avatar/avatar.html"><button class="comp_link_btn">Avatar <i
+                    class="fa-solid fa-circle-chevron-right"></i></button></a>
+    </div>
+    <aside class="docs_sidenav">
+        <h2>Components</h2>
+        <a href="../avatar/avatar.html">
+            <h3>Avatar</h3>
+        </a>
+        <a href="../alert/alert.html">
+            <h3>Alert</h3>
+        </a>
+        <a href="../badge/badge.html">
+            <h3>Badge</h3>
+        </a>
+        <a href="../button/button.html">
+            <h3>Button</h3>
+        </a>
+        <a href="../card/card.html">
+            <h3>Card</h3>
+        </a>
+        <a href="../image/image.html">
+            <h3>Image</h3>
+        </a>
+        <a href="../input/input.html">
+            <h3>Input</h3>
+        </a>
+        <a href="../list/list.html">
+            <h3>List</h3>
+        </a>
+        <a href="../rating/rating.html">
+            <h3>Ratings</h3>
+        </a>
+        <a href="../toast/toast.html">
+            <h3>Toast</h3>
+        </a>
+    </aside>
     <div id="toast" class="toast"><i class="fa-solid fa-circle-info"></i>
         <p class="toast_msg">This is a Toast message</p>
     </div>
-    <button id="show_toast" class="show_toast">Show toast</button>
+    <div class="component_description">
+        <h2>Toast</h2>
+        <p>This is a toast component. You can use it to show notification messges in your project.</p>
+    </div>
+    <div class="mlanui_component">
+        <div>
+            <button id="show_toast" class="show_toast">Show toast</button>
+        </div>
+        <div class="component_code">
+            <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28144%2C19%2C254%2C1%29&t=cobalt&wt=none&l=auto&width=432.5&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%253Cdiv%2520id%253D%2522toast%2522%2520class%253D%2522toast%2522%253E%253Ci%2520class%253D%2522fa-solid%2520fa-circle-info%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%253Cp%2520class%253D%2522toast_msg%2522%253EThis%2520is%2520a%2520Toast%2520message%253C%252Fp%253E%250A%253C%252Fdiv%253E%250A%253Cbutton%2520id%253D%2522show_toast%2522%2520class%253D%2522show_toast%2522%253EShow%2520toast%253C%252Fbutton%253E%250A"
+                style="width: 433px; height: 382px; border:0; transform: scale(1); overflow:hidden;"
+                sandbox="allow-scripts allow-same-origin">
+            </iframe>
+        </div>
+    </div>
+
     <script src="../js/index.js"></script>
 </body>
 

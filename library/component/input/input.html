@@ -10,40 +10,149 @@
 </head>
 
 <body>
-
-    <textarea class="textbox" placeholder="Comment here!"></textarea>
-
-    <div class="input_section">
-        <label>Email</label>
-        <input type="text" class="input_field" placeholder="Enter your email">
+    <div class="nav_bar">
+        <a href="../../../index.html">
+            <div class="logo">Mlan UI</div>
+        </a>
+        <ul class="nav_link">
+            <a href="">
+                <li><i class="fa-brands fa-github"></i></li>
+            </a>
+            <a href="../avatar/avatar.html">
+                <li>Docs</li>
+            </a>
+        </ul>
+    </div>
+    <div class="docs_bottom_bar">
+        <a href="../image/image.html"><button class="comp_link_btn"><i class="fa-solid fa-circle-chevron-left"></i>
+                Image </button></a>
+        <a href="../list/list.html"><button class="comp_link_btn">List <i
+                    class="fa-solid fa-circle-chevron-right"></i></button></a>
+    </div>
+    <aside class="docs_sidenav">
+        <h2>Components</h2>
+        <a href="../avatar/avatar.html">
+            <h3>Avatar</h3>
+        </a>
+        <a href="../alert/alert.html">
+            <h3>Alert</h3>
+        </a>
+        <a href="../badge/badge.html">
+            <h3>Badge</h3>
+        </a>
+        <a href="../button/button.html">
+            <h3>Button</h3>
+        </a>
+        <a href="../card/card.html">
+            <h3>Card</h3>
+        </a>
+        <a href="../image/image.html">
+            <h3>Image</h3>
+        </a>
+        <a href="../input/input.html">
+            <h3>Input</h3>
+        </a>
+        <a href="../list/list.html">
+            <h3>List</h3>
+        </a>
+        <a href="../rating/rating.html">
+            <h3>Ratings</h3>
+        </a>
+        <a href="../toast/toast.html">
+            <h3>Toast</h3>
+        </a>
+    </aside>
+    <div class="component_description">
+        <h2>Input </h2>
+        <p>This is text box component.</p>
+    </div>
+    <div class="mlanui_component">
+        <div> <textarea class="textbox" placeholder="Comment here!"></textarea></div>
+        <div class="component_code">
+            <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28144%2C19%2C254%2C1%29&t=cobalt&wt=none&l=auto&width=432.5&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%253Ctextarea%2520class%253D%2522textbox%2522%2520placeholder%253D%2522Comment%2520here%21%2522%253E%253C%252Ftextarea%253E"
+                style="width: 433px; height: 233px; border:0; transform: scale(1); overflow:hidden;"
+                sandbox="allow-scripts allow-same-origin">
+            </iframe>
+        </div>
+    </div>
+    <div class="component_description">
+        <p>This is input component.You can use it in form..</p>
+    </div>
+    <div class="mlanui_component">
+        <div>
+            <div class="input_section">
+                <label>Email</label>
+                <input type="text" class="input_field" placeholder="Enter your email">
+            </div>
+        </div>
+        <div class="component_code">
+            <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28144%2C19%2C254%2C1%29&t=cobalt&wt=none&l=auto&width=432.5&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522input_section%2522%253E%250A%2520%2520%2520%253Clabel%253EEmail%253C%252Flabel%253E%250A%2520%2520%2520%253Cinput%2520type%253D%2522text%2522%2520class%253D%2522input_field%2522%2520placeholder%253D%2522Enter%2520your%2520email%2522%253E%250A%253C%252Fdiv%253E"
+                style="width: 433px; height: 297px; border:0; transform: scale(1); overflow:hidden;"
+                sandbox="allow-scripts allow-same-origin">
+            </iframe>
+        </div>
+    </div>
+    <div class="component_description">
+        <p>This is an Input component with error message. <br>
+            You can use it when a user enters any wrong input.</p>
+    </div>
+    <div class="mlanui_component">
+        <div>
+            <div class="input_section_err">
+                <label>Password</label>
+                <input type="password" class="err_input_field" placeholder="Enter your password">
+                <p class="err_msg">Wrong Password. Try again</p>
+            </div>
+        </div>
+        <div class="component_code">
+            <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28144%2C19%2C254%2C1%29&t=cobalt&wt=none&l=auto&width=432.5&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522input_section_err%2522%253E%250A%2520%2520%2520%253Clabel%253EPassword%253C%252Flabel%253E%250A%2520%2520%2520%253Cinput%2520type%253D%2522password%2522%2520class%253D%2522err_input_field%2522%2520placeholder%253D%2522Enter%2520your%2520password%2522%253E%250A%2520%2520%2520%253Cp%2520class%253D%2522err_msg%2522%253EWrong%2520Password.%2520Try%2520again%253C%252Fp%253E%250A%253C%252Fdiv%253E"
+                style="width: 433px; height: 339px; border:0; transform: scale(1); overflow:hidden;"
+                sandbox="allow-scripts allow-same-origin">
+            </iframe>
+        </div>
     </div>
 
-    <div class="input_section_err">
-        <label>Password</label>
-        <input type="password" class="err_input_field" placeholder="Enter your password">
-        <p class="err_msg">Wrong Password. Try again</p>
-    </div>
+
 
     <!-- basic form -->
-    <form class="input_form">
-        <div class="input_section">
-            <label>First name</label>
-            <input type="text" class="input_field" placeholder="Enter your first name">
+
+    <div class="component_description">
+        <h2>A basic form </h2>
+    </div>
+    <div class="mlanui_component">
+        <div>
+            <form class="input_form">
+                <div class="input_section">
+                    <label>First name</label>
+                    <input type="text" class="input_field" placeholder="Enter your first name">
+                </div>
+                <div class="input_section">
+                    <label>Last name</label>
+                    <input type="text" class="input_field" placeholder="Enter your last name">
+                </div>
+                <div class="input_section">
+                    <label>Email</label>
+                    <input type="email" class="input_field" placeholder="Enter your email">
+                </div>
+                <div class="input_section">
+                    <label>Password</label>
+                    <input type="password" class="input_field" placeholder="Enter your password">
+                </div>
+                <button class="submit_btn">Submit</button>
+            </form>
         </div>
-        <div class="input_section">
-            <label>Last name</label>
-            <input type="text" class="input_field" placeholder="Enter your last name">
+        <div class="component_code">
+            <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28144%2C19%2C254%2C1%29&t=cobalt&wt=none&l=auto&width=432.5&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%253Cform%2520class%253D%2522input_form%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522input_section%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%253EFirst%2520name%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522text%2522%2520class%253D%2522input_field%2522%2520placeholder%253D%2522Enter%2520your%2520first%2520name%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522input_section%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%253ELast%2520name%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522text%2522%2520class%253D%2522input_field%2522%2520placeholder%253D%2522Enter%2520your%2520last%2520name%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522input_section%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%253EEmail%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522email%2522%2520class%253D%2522input_field%2522%2520placeholder%253D%2522Enter%2520your%2520email%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522input_section%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%253EPassword%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522password%2522%2520class%253D%2522input_field%2522%2520placeholder%253D%2522Enter%2520your%2520password%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522submit_btn%2522%253ESubmit%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253C%252Fform%253E"
+                style="width: 433px; height: 956px; border:0; transform: scale(1); overflow:hidden;"
+                sandbox="allow-scripts allow-same-origin">
+            </iframe>
         </div>
-        <div class="input_section">
-            <label>Email</label>
-            <input type="email" class="input_field" placeholder="Enter your email">
-        </div>
-        <div class="input_section">
-            <label>Password</label>
-            <input type="password" class="input_field" placeholder="Enter your password">
-        </div>
-        <button class="submit_btn">Submit</button>
-    </form>
+    </div>
+
 
 </body>
 

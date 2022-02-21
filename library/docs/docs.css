@@ -78,6 +78,19 @@
 .component .toast{
   position:static;
 }
+.docs_intro{
+  text-align:left;
+  margin:3rem;
+}
+.docs_intro h1{
+  font-size:3rem;
+  color:var(--Turquoisecolor);
+}
+.docs_intro p{
+  font-size:1.6rem;
+  margin-top:1rem;
+
+}
 @media only screen and (max-width: 600px) {
   aside {
     display: none;

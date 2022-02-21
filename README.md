@@ -5,9 +5,12 @@
 **How to use MLAN UI?** 
 - To use MLAN UI in your project you need to copy and paste the below link, and add this inside the <head> tag of your HTML file OR you can import the code into your CSS file.
 
-> `<link rel="stylesheet" href="https://mlanui.netlify.app/library/style.css" />`
-
-> `@import url("https://mlanui.netlify.app/library/style.css")`
+```Html
+<link rel="stylesheet" href="https://mlanui.netlify.app/library/style.css" />
+```
+```css
+@import url("https://mlanui.netlify.app/library/style.css")
+```
 
 ## Components
 

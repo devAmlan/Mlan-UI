@@ -62,7 +62,7 @@
 }
 .component_code iframe{
 
-    max-inline-size:100%;
+    max-inline-size:90%;
     block-size:auto;
     margin:1rem;
 }

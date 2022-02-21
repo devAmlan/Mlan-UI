@@ -57,7 +57,9 @@
     font-size:2rem;
     margin:1rem;
 }
-
+.component_code{
+    margin:1.5rem 0;
+}
 .component_code iframe{
 
     max-inline-size:100%;

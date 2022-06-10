@@ -1,0 +1,25 @@
+.grid2_container {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+}
+.grid3_container {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+}
+.grid_item {
+  /* width: 25rem; */
+  height: 20rem;
+  border: 2px solid var(--primary-color);
+  background-color: var(--primary-bgcolor);
+  text-align: center;
+  margin: 1rem;
+}
+.grid_component {
+  margin-left: 25rem;
+  padding-bottom: 5rem;
+}
+@media only screen and (max-width: 600px) {
+  .grid_component {
+    margin: 1rem;
+  }
+}

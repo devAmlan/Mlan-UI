@@ -10,14 +10,91 @@
 </head>
 
 <body>
-    <div class="modal_area">
-        <button class="modal_btn" id="showmodal">Show Modal</button>
-        <div class="modal_box" id="modal">
-            <div class="close_modal"><i class="fa-solid fa-circle-xmark" id="closemodal"></i></div>
-            <h2>Modal Title</h2>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quae culpa sit nesciunt mollitia rem, quod
-                facere recusandae quibusdam facilis soluta!
-            </p>
+    <div class="nav_bar">
+        <a href="../../../index.html">
+            <div class="logo">Mlan UI</div>
+        </a>
+        <ul class="nav_link">
+            <a href="">
+                <li><i class="fa-brands fa-github"></i></li>
+            </a>
+            <a href="../avatar/avatar.html">
+                <li>Docs</li>
+            </a>
+        </ul>
+    </div>
+    <aside class="docs_sidenav">
+        <h2>Components</h2>
+        <a href="../avatar/avatar.html">
+            <h3>Avatar</h3>
+        </a>
+        <a href="../alert/alert.html">
+            <h3>Alert</h3>
+        </a>
+        <a href="../badge/badge.html">
+            <h3>Badge</h3>
+        </a>
+        <a href="../button/button.html">
+            <h3>Button</h3>
+        </a>
+        <a href="../card/card.html">
+            <h3>Card</h3>
+        </a>
+        <a href="../image/image.html">
+            <h3>Image</h3>
+        </a>
+        <a href="../input/input.html">
+            <h3>Input</h3>
+        </a>
+        <a href="../list/list.html">
+            <h3>List</h3>
+        </a>
+        <a href="../rating/rating.html">
+            <h3>Ratings</h3>
+        </a>
+        <a href="../toast/toast.html">
+            <h3>Toast</h3>
+        </a>
+        <a href="../grid/grid.html">
+            <h3>Grid</h3>
+        </a>
+        <a href="../navigation/nav.html">
+            <h3>Navigation</h3>
+        </a>
+        <a href="../modal/modal.html">
+            <h3>Modal</h3>
+        </a>
+        <a href="../textutility/text.html">
+            <h3>Text Utilities</h3>
+        </a>
+    </aside>
+    <div class="docs_bottom_bar">
+        <a href="../navigation/nav.html"><button class="comp_link_btn"><i class="fa-solid fa-circle-chevron-left"></i>
+                Navigation </button></a>
+        <a href="../textutility/text.html"><button class="comp_link_btn">Text Utilities <i
+                    class="fa-solid fa-circle-chevron-right"></i></button></a>
+    </div>
+    <div class="component_description">
+        <h2>Modal</h2>
+        <p>This is a Modal component used to add information and restrict scroll in the body.</p>
+      </div>
+    <div class="modal_component">
+        <div class="modal_area">
+            <button class="modal_btn" id="showmodal">Show Modal</button>
+            <div class="modal_box" id="modal">
+                <div class="close_modal"><i class="fa-solid fa-circle-xmark" id="closemodal"></i></div>
+                <h2>Modal Title</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quae culpa sit nesciunt mollitia rem, quod
+                    facere recusandae quibusdam facilis soluta!
+                </p>
+            </div>
+        </div>
+        <div class="component_code">
+            <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28189%2C16%2C224%2C1%29&t=seti&wt=none&l=auto&width=320&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%2520%253Cdiv%2520class%253D%2522modal_area%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522modal_btn%2522%2520id%253D%2522showmodal%2522%253EShow%2520Modal%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522modal_box%2522%2520id%253D%2522modal%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522close_modal%2522%253E%253Ci%2520class%253D%2522fa-solid%2520fa-circle-xmark%2522%2520id%253D%2522closemodal%2522%253E%253C%252Fi%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch2%253EModal%2520Title%253C%252Fh2%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253ELorem%252C%2520ipsum%2520dolor%2520sit%2520amet%2520consectetur%2520adipisicing%2520elit.%2520Quae%2520culpa%2520sit%2520nesciunt%2520mollitia%2520rem%252C%2520quod%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520facere%2520recusandae%2520quibusdam%2520facilis%2520soluta%21%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
+                style="width: 331px; height: 727px; border:0; transform: scale(1); overflow:hidden;"
+                sandbox="allow-scripts allow-same-origin">
+            </iframe>
         </div>
     </div>
     <script>

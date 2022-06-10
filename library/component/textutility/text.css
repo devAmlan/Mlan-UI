@@ -23,3 +23,11 @@
 .center_text {
   text-align: center;
 }
+.text_component {
+  margin-left: 25rem;
+}
+@media only screen and (max-width: 600px) {
+  .text_component {
+    margin: 1rem;
+  }
+}
